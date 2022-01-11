@@ -1,0 +1,25 @@
+Creating a windowed application for editing the schedule
+
+Technical task:
+
+    • Create a window application that allows you to edit the database with the schedule of your group.
+
+Minimum requirements for the developed system:
+
+    1. Using the PyQt5 library.
+
+    2. Using adapter psycopg2.
+
+    3. The application must have with it the functionality that allows you to: view the database in a user-friendly format, delete, add and modify records in the same database.
+
+    4. The visual part must have with you:
+        a. At least 3 tabs, each of which contains information from a separate table in the database.
+        b. Within each tab, information should be displayed in the form of tables.
+        c. Within each tab, a button with refresh information should be displayed.
+        d. Within each table, all fields from the table in the database should be displayed in the form of columns
+        e. Within each table, after each row of a record, buttons for editing and deleting a record should be displayed
+        f. At the end of each table there should be an empty row with a button to add a new record.
+
+
+The system can be supplemented with your functionality, but must meet the minimum requirements.
+

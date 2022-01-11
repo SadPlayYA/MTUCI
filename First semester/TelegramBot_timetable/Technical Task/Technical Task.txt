@@ -1,0 +1,57 @@
+Creating a cart bot using pyTelegramBotAPI and PostgreSQL
+
+Technical task:
+
+    • Create a telegram bot with a schedule for your group.
+
+Minimum requirements for the developed system:
+
+    1. The bot must have a nickname of the format <group number>_<developer surname>_bot.
+
+    2. The bot must have a name in the format <group number>_<developer surname>.
+
+    3. The manner of communication of the bot - "to you".
+
+    4. Using the PostgreSQL database.
+
+    5. Using pyTelegramBotAPI.
+
+    6. Using adapter psycopg2.
+
+    7. Output format for each day of the week:
+
+<Day of the week>
+____________
+<Subject> <Cabinet> <Time> <Teacher>
+...
+<Subject> <Cabinet> <Time> <Teacher>
+____________
+
+    8. While the bot is running, the following graphic buttons should be displayed:
+
+        a. Monday
+        b. Tuesday
+        c. Wednesday
+        d. Thursday
+        e. Friday
+        f. Schedule for the current week
+        g. Schedule for next week
+
+    9. When you click on the button with a day of the week, the bot should display information from the database with a schedule for the selected day of the current week.
+    
+    10. When you click on the "Schedule for the current week" button, the bot should display information from the database with a schedule for the entire current week.
+    
+    11. When you click on the "Schedule for the next week" button, the bot should display information from the database with a schedule for the entire next week of the week.
+    
+    12. When using the / week command, the bot should display which week is currently top / bottom.
+    
+    13. When using the / mtuci command, the bot should display a link to the official MTUCI website - https://mtuci.ru/
+    
+    14. When using the / help command, the bot should display brief information about itself, brief documentation and a list of commands with their explanations.
+    
+    15. When you enter an unknown command or a message unknown to the bot, the bot should send the user a message - "Sorry, I did not understand you."
+    
+    16. The structure of the database can be supplemented with fields in tables.
+
+
+The system can be supplemented with your functionality, but must meet the minimum requirements.
